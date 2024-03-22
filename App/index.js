@@ -1,0 +1,2 @@
+import { iniciarApp } from './App.js';// Se importa la función iniciarApp desde el archivo App.js. 
+document.addEventListener('DOMContentLoaded', iniciarApp);//agrega un event listener al objeto document que espera a que se cargue completamente el contenido HTML de la página (es decir, cuando se dispara el evento DOMContentLoaded). Una vez que el evento DOMContentLoaded se dispara, la función iniciarApp se ejecuta. 
